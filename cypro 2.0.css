@@ -340,7 +340,7 @@ textarea
     resize: none;
     color: white;
 }
-a button{
+form button{
     font-family: poppins;
     color: #1f1f1f;
     text-decoration: none;
