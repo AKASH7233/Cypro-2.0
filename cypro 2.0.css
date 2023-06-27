@@ -12,6 +12,8 @@ p{
     top: 0;
     background-color: rgba(0,0,0,0.2);
 }
+.logo{
+}
 #menu,.dropdown{
     display: none;
     font-family: poppins;
@@ -332,7 +334,7 @@ textarea
     background-color: #323946;
     padding:10px 10px;    
     margin: 8px 0;
-    width:62.4%;
+    width:50%;
     border-radius: 5px;
     border: none;
     resize: none;
@@ -366,9 +368,10 @@ a.submit{
 }
 @media screen and (min-width:800px){
     textarea{
-        width: 80%;
+        width: 62.4%;
     }
 }
+
 @media  screen and (max-width:1000px) {
     .header{
         display: none;
@@ -487,7 +490,7 @@ a.submit{
         width:90%;
     }
     textarea{
-        width:90% ;
+        width:90%;
     }
     #menu{
         padding: 0.1em;
